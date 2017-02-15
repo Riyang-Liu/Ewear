@@ -1,13 +1,26 @@
-body {
-	font-family: 'Amiri', serif;
-	color: white;
+
+
+.container {
+	
+	width: 450px;
 }
 
-#content {
+.form-control {
 
+	width: 300px;
+}
+
+h2 {
+	margin-top: 20%;
+	font-family: 'Amiri', serif;
 	text-align: center;
-	margin-top: 250px;
-	text-shadow: 0 2px 3px rgba(0, 0, 0, .8);
+	
+}
+
+hr {
+	width: 350px;
+	border-top: 1px solid black;
+
 }
 
 html {
@@ -15,10 +28,8 @@ html {
 }
 
 
-hr {
-	width: 400px;
-	border-top: 1px solid white;
 
-}
+
+
 
 
