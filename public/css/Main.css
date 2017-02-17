@@ -38,7 +38,7 @@ li {
 #cover {
   background: url("/images/weather/Cloudy.png") no-repeat center bottom;
   background-size: cover;
-  height: 180px;
+  height: 200px;
   position: relative;
   top:100px;
 }
@@ -47,7 +47,7 @@ li {
   background-color: #14213D;
   color: #FFF;
   font-family: 'Amatic SC', cursive;
-  font-size: 3em;
+  font-size: 2em;
   padding: 5%;
 }
 
