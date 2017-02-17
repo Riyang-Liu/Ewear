@@ -6,12 +6,10 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
-
 var index = require('./routes/index');
 var like = require('./routes/like');
 var signup = require('./routes/signup');
 var main = require('./routes/main');
-
 var closet = require('./routes/closet');
 
 // Example route

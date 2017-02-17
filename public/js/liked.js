@@ -2,8 +2,8 @@
 var like = require('../like.json');
 
 exports.view = function(req, res){
-	
-	res.render('like', like);
+
+	var likes = like;
+	res.json(likes);
 	
 };
-
