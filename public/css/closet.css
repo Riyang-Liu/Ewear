@@ -1,4 +1,12 @@
+
+#omg {
+	margin-top: 50px;
+}
+
 body {
+
+	background-size: cover; 
+	background-position: center;
 	font-family: 'Amiri', serif;
 	color: black;
 }
