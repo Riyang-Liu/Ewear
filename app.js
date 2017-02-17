@@ -11,10 +11,9 @@ var index = require('./routes/index');
 var like = require('./routes/like');
 var signup = require('./routes/signup');
 var main = require('./routes/main');
-<<<<<<< HEAD
-=======
+
 var closet = require('./routes/closet');
->>>>>>> 055c855333492368d209e6df52341a00362b60b9
+
 // Example route
 // var user = require('./routes/user');
 
@@ -45,10 +44,9 @@ app.get('/', index.view);
 app.get('/like', like.view);
 app.get('/signup', signup.view);
 app.get('/main', main.view);
-<<<<<<< HEAD
-=======
+
 app.get('/closet', closet.view);
->>>>>>> 055c855333492368d209e6df52341a00362b60b9
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
