@@ -20,7 +20,23 @@
 		</div>
 	</nav>
 
-<!-- The liked clothes contatiner -->
+<!-- The clothes contatiner -->
+	<h1>Tops</h1> 
+	<div class="container">
+		<div class="row">
+			{{#each photos}}
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="thumbnails">
+					<img src="{{imageURL}}">
+				</div>
+				<hr>
+			</div>
+			{{/each}}
+		</div>
+
+	</div>
+
+	<h1>Bottoms</h1> 
 	<div class="container">
 		<div class="row">
 			{{#each photos}}
