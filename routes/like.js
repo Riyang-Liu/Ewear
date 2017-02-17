@@ -1,6 +1,8 @@
-// Get all of our friend data
-var data = require('../data.json');
+
+var like = require('../like.json');
 
 exports.view = function(req, res){
-	res.render('like', data);
+
+	res.json(like);
 };
+
