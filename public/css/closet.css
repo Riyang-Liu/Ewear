@@ -1,7 +1,4 @@
 body {
-	background-image: url("/images/closet.jpg");
-	background-size: cover; 
-	background-position: center;
 	font-family: 'Amiri', serif;
 	color: black;
 }
@@ -20,3 +17,7 @@ hr {
 	border-top: 1 px solid white;
 }
 
+img {
+	width: 100%;
+	height: 500px;
+}
