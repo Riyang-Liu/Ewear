@@ -1,37 +1,54 @@
 body {
-	background-image: url(https://cdn3.iconfinder.com/data/icons/weather-and-forecast/51/Weather_icons_grey-03-512.png);
-	background-size: 25%;
-	background-color: #6EC8E7;
+	background-color: #FFF;
 	background-position: center;
 	font-family: 'Amiri', serif;
 	color: white;
 }
 
-.container {
-	align-items: center;
-	align-self: center;
-	image: url('https://s-media-cache-ak0.pinimg.com/564x/7f/90/bc/7f90bc34f911b2facc1455586523eeb5.jpg') center center;
-	border-radius: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+ul {
+  margin: 30px auto;
+  text-align: center;
 }
 
-.white{
-	color: white;
-}
- 
-.pink{
-	color: #FF3364;
-}
-
-.glyphicon{
-	font-size: 100px;
+li {
+  color: #000;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 300;
+  padding: 0 40px;
 }
 
-.icons{
-	text-align: center;
-	word-spacing: 20px;
+.Outfits {
+  background: #EEEFF1;
+  box-sizing: border-box;
+  top: 700px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.Outfits img{
+  position: center;
+  width: 80%;
+}
+
+#cover {
+  background: url("/images/weather/Cloudy.png") no-repeat center bottom;
+  background-size: cover;
+  height: 180px;
+  position: relative;
+  top:100px;
+}
+
+.btn {
+  background-color: #14213D;
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  padding: 5%;
 }
 
 html {
