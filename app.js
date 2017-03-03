@@ -45,6 +45,7 @@ app.get('/main', main.view);
 
 app.get('/closet', closet.view);
 
+/*
 // Add the ngTouch submodule 
 angular.module('Ewear', ['ngAnimate', 'ngTouch'])
 .controller('MainCtrl', function ($scope) {
@@ -113,7 +114,9 @@ angular.module('Ewear', ['ngAnimate', 'ngTouch'])
         };
     });
 
+*/
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
+
